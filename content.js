@@ -202,8 +202,12 @@ class TestClass(unittest.TestCase):
   }
 
   text += `
+def resolve():
+
+
 if __name__ == "__main__":
     unittest.main()
+    # resolve()
 `;
   
   return text;
